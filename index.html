@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--navbar-->
+ <div class="content">
+    <nav class="navbar">
+        <div class="logo">
+           <h1> <a href="#">SOFTGRAY</a></h1>
+        </div>
+        <ul class="navi-list" id="navi-list">
+            <li class="list"><a href="#">PRODUCT</a></li>
+            <li class="list"><a href="#">SERVICES</a></li>
+            <li class="list"><a href="#">ABOUT</a></li>
+            <li class="list"><a href="#">JOBS</a></li>
+            <li class="list"><a href="#">CONTACT</a></li>
+            <li class="list"><a href="#">+63-00-0000-0000</a></li>
+        </ul>
+        <div class="meno" id="toggle-button">
+            <div class="meno-lie"></div>
+            <div class="meno-lie"></div>
+            <div class="meno-lie"></div>
+        </div>
+    </nav>
+            <!---contents--->
+    <div class="contents">
+        <h3>CREATIVE SOLUTION</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Eum eos quos debitis eius expedita nam ab ducimus itaque qui co <br> soluta, esse nisi deleniti quisquam voluptas?</p>
+   </div>
+ </div>
+ <!----1page-->
+ <div class="card">
+     <div class="id">
+         <img src="image/1.jpg">
+         <h3>Consulting</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ducimus <br> voluptatem libero fugit vero placeat minus explicabo reprehenderit, repudiandae <br> ipsum molestiae eos cum nam unde magnam. Iste reprehenderit amet error?</p>
+     </div>
+     <div class="id">
+        <img src="image/m.png">
+        <h3>Developing</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ducimus <br> voluptatem libero fugit vero placeat minus explicabo reprehenderit, repudiandae <br> ipsum molestiae eos cum nam unde magnam. Iste reprehenderit amet error?</p>
+    </div>
+    <div class="id">
+        <img src="image/3.png">
+        <h3>Designing</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ducimus <br> voluptatem libero fugit vero placeat minus explicabo reprehenderit, repudiandae <br> ipsum molestiae eos cum nam unde magnam. Iste reprehenderit amet error?</p>
+    </div>
+    <div class="id">
+        <img src="image/l.png">
+        <h3>Analysis</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ducimus <br> voluptatem libero fugit vero placeat minus explicabo reprehenderit, repudiandae <br> ipsum molestiae eos cum nam unde magnam. Iste reprehenderit amet error?</p>
+    </div>
+ </div>
+ <!--2page-->
+ <div class="link">
+     <div class="text">
+         <h2>LOREM IPSUM</h2>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing <br>  Vitae aperiam natus itaque consequatur aliquid deserunt <br>voluptas omnis doloremque modi reiciendis corrupti exercitationem. <br> Voluptatum modi corporis laudantium, adipisci consequuntur aliquid.</p>
+          <h5><a href="#" class="view">VIEW MORE</a></h5>
+     </div>
+     <div class="pic">
+         <img src="image/5.jpg">
+     </div>
+ </div>
+ <!--3page-->
+ <div class="slider">
+     <div class="sliders">
+         <h6>MAGAZINE PUBLISHING TOOL</h6>
+         <h4>THE NEWS</h4>
+         <img src="image/6.jpg">
+     </div>
+     <div class="sliders">
+         <h6>DIGITAL BOOK PUBLISHING TOOL</h6>
+        <h4>LIBRO</h4>
+        <img src="image/7.jpg" >
+    </div>
+    <div class="sliders">
+        <h6>FONT EDITOR</h6>
+        <h4>ELITE</h4>
+        <img src="image/8.png" >
+    </div>
+
+ </div>
+   <!--4page-->
+   <div class=" display">
+            <div class="picture">
+                <h3>LATEST NEWS</h3>
+                <img src="image/9.jpg">
+                <h5>Lorem, ipsum dolor sit amet consectetur</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere magni suscipit voluptate ea, <br> laborum eum velit quam est magnam saepe sapiente quisquam omnis <br> ipsum ut quidem quos necessitatibus explicabo?</p>
+                <h5><a href="#">READ MORE</a></h5>
+            </div>
+            <div class="picture">
+                <h3>RELEASE</h3>
+                <img src="image/10.jpg">
+                <h5>Lorem, ipsum dolor sit amet consectetur</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere magni suscipit voluptate ea, <br> laborum eum velit quam est magnam saepe sapiente quisquam omnis <br> ipsum ut quidem quos necessitatibus explicabo?</p>
+                <h5><a href="#">READ MORE</a></h5>
+            </div>
+            <div class="picture">
+                <h3>JOBS</h3>
+                <img src="image/11.jpg">
+                <h5>Lorem, ipsum dolor sit amet consectetur</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere magni suscipit voluptate ea, <br> laborum eum velit quam est magnam saepe sapiente quisquam omnis <br> ipsum ut quidem quos necessitatibus explicabo?</p>
+                <h5><a href="#">READ MORE</a></h5>
+            </div>
+
+   </div>
+</body>
+<script>
+    const toggleButton = document.getElementById('toggle-button');
+    const naviList = document.getElementById('navi-list');
+
+    toggleButton.addEventListener('click' , ()=> {
+        naviList.classList.toggle('active');
+    })
+</script>
+</html>

@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/*--navbar*/
+.content{
+    width: 100%;
+    height: 100vh;
+    background-image:  url(image/bck.avif);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 17px;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: background 1s;
+    background: white;
+}
+.navi-list{
+    list-style: none;
+}
+.list{
+    display: inline-flex;
+    padding: 13px 27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+   
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+
+}
+.navbar:hover{
+    background: rgb(141, 138, 133);
+
+}
+.navbar a:hover{
+    color: #fff;
+}
+.meno{
+    display: none;
+   
+} 
+.meno-lie{
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 4px;
+}
+
+/*--contents*/
+
+.contents {
+    
+      align-items: center;
+      margin: auto;
+      justify-content: center;
+      text-align: center;
+      margin-top: 300px;
+}
+
+.content h3{
+    color: white;
+    font-size: 45px;
+    padding: 8px 13px;
+    margin-left: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+.contents p{
+    color: white;
+    align-items: center;
+    margin-left: 17px;
+    font-size: 20px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*--1page*/
+.card{
+    display: flex;
+    
+
+}
+.id{
+    display: inline-block;
+    margin: 50px 50px;
+    padding: 7px 13px;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+.id img{
+    height: 100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  margin-bottom: 10px;
+  border: 5px solid deepskyblue;
+  border-radius: 65px;
+}
+.id h3{
+    color: deepskyblue;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.id p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+    /*----2rd page---*/
+    .link{
+        display: flex;
+        justify-content: space-between;
+        background: rgb(226, 223, 223);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .text{
+        text-align: left;
+        margin: 25px 100px;
+        padding: 7px 13px;
+    }
+    .text h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .text p{
+        font-size: 17px;
+        margin-bottom: 40px;
+    }
+    .text a{
+        padding: 13px 45px;
+        background: white;
+        text-decoration: none;
+        color: black;
+    
+        
+    }
+    .pic{
+        mix-blend-mode: multiply;
+
+    }
+.pic img{
+    width: 550px;
+    height: 400px;
+    margin-right: 150px;
+
+}
+/*----3page---*/
+.slider{
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+}
+.sliders{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}
+.sliders h6{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.sliders h4{
+    text-align: center;
+    font-size: 40px;
+}
+.sliders img{
+    width: 500px;
+    height: 450px;
+}
+    /*---4page*/
+    .display{
+        display: flex;
+        background: azure;
+
+    }
+    .picture{
+        display: inline-block;
+        border: 2px solid white;
+        background: #fff;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .picture h3{
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+    .picture img{
+        width: 580px;
+        height: 300px;
+    }
+   
+     .picture h5{
+        padding-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: deepskyblue;
+    }
+    .picture p{
+        width: 580px;
+        padding-left: 30px;
+        font-size: 17px;
+    }
+    .picture a{
+        padding-left: 30px;
+        text-decoration: none;
+
+            
+    }
+    /*--------------laptop-------------------*/
+    @media  (max-width: 1030px){
+        /*--navbar*/
+        .navbar{
+           background: none;
+           max-width: 100%;
+    
+        }
+         .logo h1{
+             font-size: 31px;
+         }
+    
+    
+       
+        .list{
+            padding: 3px 7px;
+            font-size: 25px;
+            margin: 0 auto;
+    
+            
+           
+        }
+        .list:hover{
+            background: #fff;
+            
+        }
+        .list a:hover{
+            color: black;
+        }
+    .navbar:hover{
+        background: none;
+        
+    }
+        .navbar a{
+           color: #fff;
+           
+        
+        }
+        
+    .logo {
+        display: flex;
+        align-self: start;
+    }
+        /*contents*/
+        
+        .contents {
+            
+             width: 100%;
+            
+        }
+        
+        .content h3{
+            color: white;
+           
+        }
+        .contents p{
+            color: white;
+            align-items: center;
+        }
+        /*--1page*/
+        .card{
+            flex-direction: column;
+            
+        
+        }
+        .id{
+            padding: 7px 13px;
+        
+        
+        }
+        .id img{
+            height: 100px;
+            width: 100px;
+        }
+            /*----2rd page---*/
+            .link{
+                flex-direction: column;
+                
+            }
+            .id h3{
+               
+                margin-bottom: 10px;
+            }
+            .text{
+                 margin-left: 0px;
+                padding: 7px 5px;
+                
+            }
+            .text h2{
+    
+                margin-bottom: 10px;
+                
+            }
+
+
+            .text p{
+                margin-bottom: 20px;
+            }
+           
+        .pic img{
+            width: 550px;
+            height: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        
+        }
+        /*----3page---*/
+        .slider{
+            flex-direction: column;
+            cursor: pointer;
+            margin-bottom: 30px;
+        
+        }
+        .sliders h6{
+            margin-bottom: 2px;
+            margin-top: 50px;
+        }
+        .sliders img{
+            width: 400px;
+            height: 250px;
+        }
+            /*---4page*/
+            .display{
+                
+              flex-direction: column;
+        
+            }
+            .picture h3{
+              text-align: center;
+              margin-bottom: 2px;
+            }
+            .picture a{
+                color: blue;
+                text-decoration: underline black;
+            }
+        
+        }
+        /*-----------------------------mobile------------------------------------------*/
+        @media  (max-width: 360px){
+              .meno{
+                  display: block;
+                  position: absolute;
+                  top: 30px;
+                  right: 10px;
+              }
+              .logo h1{
+                  font-size: 25px;
+                  top: 25px;
+                  left: 10px;
+                  position: absolute;
+              }
+             .navi-list{
+                  margin-top: 70px;
+                  display: none;
+              
+              }
+             .list{
+                  width: 100%;
+                  text-align: center;
+                  justify-content: center;
+                  border-top: 1px solid white;
+              }
+              .active {
+                  display: block;
+              }
+    
+              /*contents*/
+            .contents {
+                
+                margin-bottom: 50px;
+                
+            }
+            
+            .content h3{
+                font-size: 27px;
+               
+            }
+            .contents p{
+                font-size: 17px;
+            }
+            /*--1page*/
+             .card{
+                 margin-bottom: 8px;
+                 margin-top: 8px;
+            
+             }
+            .id h3{
+               
+                margin-bottom: 10px;
+            
+            }
+            .id img{
+                height: 80px;
+                width: 80px;
+            }
+                /*----2rd page---*/
+                .text{
+                    align-items: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+        
+                .text h2{
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                .text h5{
+                    text-align: center;
+                }
+                .text p{
+                    margin-bottom: 20px;
+                    width: 250px;
+                    text-align: center;
+                }
+               
+            .pic img{
+                width: 360px;
+                height: 250px;
+               margin-bottom: 50px;
+            
+            }
+            /*----3page---*/
+          
+            .sliders img{
+                width: 300px;
+                height: 200px;
+            }
+                /*---4page*/
+
+            
+                
+                .picture{
+                    padding: 8px;
+                    margin: 0px;
+                    border: black solid 2px;
+                    background: burlywood;
+                    align-items: center;
+                    text-align: center;
+                }
+            
+                
+                .picture h3{
+                    margin-bottom: 10px;
+                    font-size: 15px;
+                    margin-right: 450px;
+                }
+                
+        
+                .picture img{
+                    width: 300px;
+                    height: 200px;
+                }
+                .picture h5{
+                    width: 300px;
+                    margin-bottom: 0px;
+                }
+                .picture p{
+                    width: 300px;
+                    font-size: 15px;
+                }
+                .picture h5{
+                    text-align: center;
+                    font-size: 15px;
+                }
+            
+        }
